@@ -1,0 +1,67 @@
+
+razonSocial
+{
+    display: block;
+    border: 1px solid brown; 
+    margin:10px; 
+    padding:10px; 
+    background-color:whitesmoke;
+}
+
+img
+{
+    padding: inherit;
+}
+
+Factura
+{
+padding: 0px 300px    
+}
+
+nombreComercial,ruc,fechaEmision
+{
+    display: list-item;
+    margin-left:50px;
+}
+
+nombre,apellido,telefono,direccion
+{
+    display: block;
+    margin: 15px 35px;
+}
+
+/*APLICAR ESTILOS DE TABLAS*/
+detalleConsumo
+{
+    display: table;
+    border-spacing: 10px;
+    border: blue 1px solid;
+}
+
+
+
+[class=o],cantidad,precio
+{
+    border: black 1px solid;
+    display: table-cell;
+}
+
+
+[class=n]{
+    display: list-item;
+    margin-left:50px;
+}
+
+
+#apellido
+{
+    color: darkturquoise;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+[class=o]
+{
+    color: brown;
+    font-size: 30px
+}
